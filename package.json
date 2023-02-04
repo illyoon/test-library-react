@@ -15,7 +15,7 @@
     "build": "tsdx build && yarn build-tailwind",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "prepare": "yarn build",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "storybook dev -p 6006",
@@ -36,8 +36,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "awesome-component-library",
-  "author": "illias",
+  "name": "illyoon-test-component-library",
+  "author": "illyoon",
   "module": "dist/awesome-component-library.esm.js",
   "size-limit": [
     {
